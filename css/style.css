@@ -710,6 +710,37 @@ main {
   border-radius: 5px;
 }
 
+/*
+  Подсказки для инпутов формы
+*/
+input + .text-help {
+  display: block;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #CC0000;
+
+}
+
+.has-danger input {
+  border: 3px solid #CC0000;
+}
+
+textarea + .text-help {
+  display: block;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #CC0000;
+}
+
+.has-danger textarea {
+  border: 3px solid #CC0000;
+}
+
 
 /**
  * Кнопка для отправки изображения
